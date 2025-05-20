@@ -46,8 +46,8 @@ class ProjectWidget extends StatelessWidget {
                 padding: const EdgeInsets.symmetric(horizontal: 10),
                 child: Text(
                   projectData.description,
-                  maxLines: 2, 
-                  overflow: TextOverflow.ellipsis,
+                  
+                  
                 ),
               ),
               const SizedBox(height: 8),
