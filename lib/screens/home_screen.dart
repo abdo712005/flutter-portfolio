@@ -19,16 +19,13 @@ class HomeScreen extends StatelessWidget {
               size: 12,
               color: Colors.black,
             ),
-            SizedBox(
-              width: 10,
-            ),
+            SizedBox(width: 10),
             Text(
-              "Untitled UI",
+              "my portfolio",
               style: TextStyle(color: Colors.black),
             )
           ],
         ),
-        // foregroundColor: Colors.black,
         backgroundColor: Colors.white,
       ),
       body: SingleChildScrollView(
@@ -42,10 +39,7 @@ class HomeScreen extends StatelessWidget {
                 gradient: LinearGradient(
                   begin: Alignment.topRight,
                   end: Alignment.bottomLeft,
-                  colors: [
-                    kGradient1,
-                    kGradient2,
-                  ],
+                  colors: [kGradient1, kGradient2],
                 ),
               ),
               child: Align(
@@ -60,64 +54,34 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             Center(
-                child: Text(
-              name,
-              style: kTitleText,
-            )),
-            Center(
-                child: Text(
-              "@$username",
-              style: kSubTitleText,
-            )),
-            const SizedBox(
-              height: 10,
+              child: Text(name, style: kTitleText),
             ),
+            const SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                OutlinedButton(
-                    onPressed: () async {
-                      //Code to launch resume
-                      final Uri url = Uri.parse(resumeLink);
-                      await launchUrl(url);
-                    },
-                    child: Text(
-                      "View Resume",
-                      style: kSubTitleText,
-                    )),
-                const SizedBox(
-                  width: 10,
-                ),
                 ElevatedButton(
-                    onPressed: () async {
-                      //Call to launch email
-                      final Uri emailLaunchUri = Uri(
-                        scheme: 'mailto',
-                        path: contactEmail,
-                      );
-                      await launchUrl(emailLaunchUri);
-                    },
-                    child: Row(
-                      children: [
-                        const Icon(
-                          Icons.add,
-                          size: 16,
-                          color: Colors.white,
-                        ),
-                        const SizedBox(
-                          width: 5,
-                        ),
-                        Text(
-                          "Contact",
-                          style: kSubTitleText.copyWith(color: Colors.white),
-                        )
-                      ],
-                    ))
+                  onPressed: () async {
+                    final Uri emailLaunchUri = Uri(
+                      scheme: 'mailto',
+                      path: contactEmail,
+                    );
+                    await launchUrl(emailLaunchUri);
+                  },
+                  child: Row(
+                    children: [
+                      const Icon(Icons.add, size: 16, color: Colors.white),
+                      const SizedBox(width: 5),
+                      Text(
+                        "Contact",
+                        style: kSubTitleText.copyWith(color: Colors.white),
+                      )
+                    ],
+                  ),
+                )
               ],
             ),
-            const SizedBox(
-              height: 10,
-            ),
+            const SizedBox(height: 10),
             Center(
               child: SizedBox(
                 width: context.screenConstraint().width * 0.8,
@@ -130,19 +94,12 @@ class HomeScreen extends StatelessWidget {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text(
-                                  "Experience",
-                                  style: kSectionTitleText,
-                                ),
-                                const SizedBox(
-                                  height: 10,
-                                ),
+                                Text("Experience", style: kSectionTitleText),
+                                const SizedBox(height: 10),
                                 Text(aboutWorkExperience),
                                 const Divider(),
                                 Text("About Me", style: kSectionTitleText),
-                                const SizedBox(
-                                  height: 10,
-                                ),
+                                const SizedBox(height: 10),
                                 Text(aboutMeSummary),
                               ],
                             ),
@@ -157,100 +114,56 @@ class HomeScreen extends StatelessWidget {
                                     padding: const EdgeInsets.symmetric(
                                         vertical: 20, horizontal: 40),
                                     child: Column(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Text(
-                                            "Location",
-                                            style: kSubTitleText,
-                                          ),
-                                          const SizedBox(
-                                            height: 10,
-                                          ),
-                                          Row(
-                                            children: [
-                                              const Icon(
-                                                Icons.circle,
-                                                size: 16,
-                                              ),
-                                              const SizedBox(
-                                                width: 5,
-                                              ),
-                                              Text(
-                                                location,
-                                              )
-                                            ],
-                                          ),
-                                          const SizedBox(
-                                            height: 10,
-                                          ),
-                                          Text(
-                                            "Website",
-                                            style: kSubTitleText,
-                                          ),
-                                          const SizedBox(
-                                            height: 10,
-                                          ),
-                                          Row(
-                                            children: [
-                                              Text(website),
-                                              const SizedBox(
-                                                width: 5,
-                                              ),
-                                              const Icon(
-                                                Icons.launch,
-                                                size: 16,
-                                              )
-                                            ],
-                                          ),
-                                          const SizedBox(
-                                            height: 10,
-                                          ),
-                                          Text(
-                                            "Portfolio",
-                                            style: kSubTitleText,
-                                          ),
-                                          const SizedBox(
-                                            height: 10,
-                                          ),
-                                          Row(
-                                            children: [
-                                              Text(portfolio),
-                                              const SizedBox(
-                                                width: 5,
-                                              ),
-                                              const Icon(
-                                                Icons.launch,
-                                                size: 16,
-                                              )
-                                            ],
-                                          ),
-                                          const SizedBox(
-                                            height: 10,
-                                          ),
-                                          Text(
-                                            "Email",
-                                            style: kSubTitleText,
-                                          ),
-                                          const SizedBox(
-                                            height: 10,
-                                          ),
-                                          Row(
-                                            children: [
-                                              Text(email),
-                                              const SizedBox(
-                                                width: 5,
-                                              ),
-                                              const Icon(
-                                                Icons.launch,
-                                                size: 16,
-                                              )
-                                            ],
-                                          ),
-                                          const SizedBox(
-                                            height: 10,
-                                          ),
-                                        ]),
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text("Location", style: kSubTitleText),
+                                        const SizedBox(height: 10),
+                                        Row(
+                                          children: [
+                                            const Icon(Icons.circle, size: 16),
+                                            const SizedBox(width: 5),
+                                            Text(location),
+                                          ],
+                                        ),
+                                        const SizedBox(height: 10),
+                                        Text("phone number",
+                                            style: kSubTitleText),
+                                        const SizedBox(height: 10),
+                                        /*
+                                        Row(
+                                          children: [
+                                            Text(phone_number),
+                                            const SizedBox(width: 5),
+                                            const Icon(Icons.launch, size: 16),
+                                          ],
+                                        ),
+                                        */
+                                        const SizedBox(height: 10),
+                                        Text("Portfolio",
+                                            style: kSubTitleText),
+                                        const SizedBox(height: 10),
+                                        /*
+                                        Row(
+                                          children: [
+                                            Text(portfolio),
+                                            const SizedBox(width: 5),
+                                            const Icon(Icons.launch, size: 16),
+                                          ],
+                                        ),
+                                        */
+                                        const SizedBox(height: 10),
+                                        Text("Email", style: kSubTitleText),
+                                        const SizedBox(height: 10),
+                                        Row(
+                                          children: [
+                                            Text(email),
+                                            const SizedBox(width: 5),
+                                            const Icon(Icons.launch, size: 16),
+                                          ],
+                                        ),
+                                      ],
+                                    ),
                                   ),
                                 )
                               ],
@@ -263,19 +176,12 @@ class HomeScreen extends StatelessWidget {
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(
-                                "Experience",
-                                style: kSectionTitleText,
-                              ),
-                              const SizedBox(
-                                height: 10,
-                              ),
+                              Text("Experience", style: kSectionTitleText),
+                              const SizedBox(height: 10),
                               Text(aboutWorkExperience),
                               const Divider(),
                               Text("About Me", style: kSectionTitleText),
-                              const SizedBox(
-                                height: 10,
-                              ),
+                              const SizedBox(height: 10),
                               Text(aboutMeSummary),
                             ],
                           ),
@@ -287,100 +193,55 @@ class HomeScreen extends StatelessWidget {
                                   padding: const EdgeInsets.symmetric(
                                       vertical: 20, horizontal: 40),
                                   child: Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: [
-                                        Text(
-                                          "Location",
-                                          style: kSubTitleText,
-                                        ),
-                                        const SizedBox(
-                                          height: 10,
-                                        ),
-                                        Row(
-                                          children: [
-                                            const Icon(
-                                              Icons.circle,
-                                              size: 16,
-                                            ),
-                                            const SizedBox(
-                                              width: 5,
-                                            ),
-                                            Text(
-                                              location,
-                                            )
-                                          ],
-                                        ),
-                                        const SizedBox(
-                                          height: 10,
-                                        ),
-                                        Text(
-                                          "Website",
-                                          style: kSubTitleText,
-                                        ),
-                                        const SizedBox(
-                                          height: 10,
-                                        ),
-                                        Row(
-                                          children: [
-                                            Text(website),
-                                            const SizedBox(
-                                              width: 5,
-                                            ),
-                                            const Icon(
-                                              Icons.launch,
-                                              size: 16,
-                                            )
-                                          ],
-                                        ),
-                                        const SizedBox(
-                                          height: 10,
-                                        ),
-                                        Text(
-                                          "Portfolio",
-                                          style: kSubTitleText,
-                                        ),
-                                        const SizedBox(
-                                          height: 10,
-                                        ),
-                                        Row(
-                                          children: [
-                                            Text(portfolio),
-                                            const SizedBox(
-                                              width: 5,
-                                            ),
-                                            const Icon(
-                                              Icons.launch,
-                                              size: 16,
-                                            )
-                                          ],
-                                        ),
-                                        const SizedBox(
-                                          height: 10,
-                                        ),
-                                        Text(
-                                          "Email",
-                                          style: kSubTitleText,
-                                        ),
-                                        const SizedBox(
-                                          height: 10,
-                                        ),
-                                        Row(
-                                          children: [
-                                            Text(email),
-                                            const SizedBox(
-                                              width: 5,
-                                            ),
-                                            const Icon(
-                                              Icons.launch,
-                                              size: 16,
-                                            )
-                                          ],
-                                        ),
-                                        const SizedBox(
-                                          height: 10,
-                                        ),
-                                      ]),
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text("Location", style: kSubTitleText),
+                                      const SizedBox(height: 10),
+                                      Row(
+                                        children: [
+                                          const Icon(Icons.circle, size: 16),
+                                          const SizedBox(width: 5),
+                                          Text(location),
+                                        ],
+                                      ),
+                                      const SizedBox(height: 10),
+                                      Text("Website", style: kSubTitleText),
+                                      const SizedBox(height: 10),
+                                      /*
+                                      Row(
+                                        children: [
+                                          Text(phone_number),
+                                          const SizedBox(width: 5),
+                                          const Icon(Icons.launch, size: 16),
+                                        ],
+                                      ),
+                                      */
+                                      const SizedBox(height: 10),
+                                      Text("Portfolio",
+                                          style: kSubTitleText),
+                                      const SizedBox(height: 10),
+                                      /*
+                                      Row(
+                                        children: [
+                                          Text(portfolio),
+                                          const SizedBox(width: 5),
+                                          const Icon(Icons.launch, size: 16),
+                                        ],
+                                      ),
+                                      */
+                                      const SizedBox(height: 10),
+                                      Text("Email", style: kSubTitleText),
+                                      const SizedBox(height: 10),
+                                      Row(
+                                        children: [
+                                          Text(email),
+                                          const SizedBox(width: 5),
+                                          const Icon(Icons.launch, size: 16),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               )
                             ],
@@ -391,19 +252,21 @@ class HomeScreen extends StatelessWidget {
             ),
             Center(
               child: SizedBox(
-                  width: context.screenConstraint().width * 0.8,
-                  child: GridView.builder(
-                      shrinkWrap: true,
-                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 2,
-                          childAspectRatio:
-                              context.screenConstraint().width > 1000 ? 3 : 2),
-                      itemCount: projectList.length,
-                      itemBuilder: (BuildContext context, int index) {
-                        return ProjectWidget(
-                          projectData: projectList[index],
-                        );
-                      })),
+                width: context.screenConstraint().width * 0.7,
+                child: GridView.builder(
+                  physics: const NeverScrollableScrollPhysics(),
+                  shrinkWrap: true,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2,
+                    childAspectRatio:
+                        context.screenConstraint().width > 1000 ? 3 : 2,
+                  ),
+                  itemCount: projectList.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    return ProjectWidget(projectData: projectList[index]);
+                  },
+                ),
+              ),
             ),
           ],
         ),
@@ -411,3 +274,4 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
+ 
