@@ -1,0 +1,203 @@
+{
+   "checksum": "b5e6fd8ea4619259c004b6726a872f11",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13319677510384625",
+            "date_last_used": "13364849445773096",
+            "guid": "150d8c93-d72a-4b05-bd97-e310c901702d",
+            "id": "9",
+            "name": "ICPC Assiut Materials - Google Drive",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/u/0/d/1EbbsotAwb0zuuwxyzs8l2qh8twqw-sNcNbAjCK1kXaE/htmlview#gid=1131544982",
+            "visit_count": 0
+         }, {
+            "date_added": "13355063572737614",
+            "date_last_used": "0",
+            "guid": "0458a3b1-3929-4af3-8cf7-03251419d4a2",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Problem Solving - make a copy from this file - Google Drive",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1GfPphcZbmykeW1BJRx-kEu7LjkadDV__Cenaz9U_TWs/htmlview",
+            "visit_count": 0
+         }, {
+            "date_added": "13320685803132977",
+            "date_last_used": "13391951352273949",
+            "guid": "be97b1a2-4000-445f-bd80-a8ad06a450d6",
+            "id": "11",
+            "name": "(11) YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.youtube.com/",
+            "visit_count": 13
+         }, {
+            "date_added": "13334059708884863",
+            "date_last_used": "13362633993564583",
+            "guid": "7f27471b-4d54-4bc7-aea1-2e2be4c6cc76",
+            "id": "12",
+            "name": "Gmail",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService",
+            "visit_count": 0
+         }, {
+            "date_added": "13334059708885543",
+            "date_last_used": "13392071387281314",
+            "guid": "c49a4534-eefd-4bb5-bbdf-85c50ead1ecf",
+            "id": "13",
+            "name": "YouTube",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://youtube.com/",
+            "visit_count": 27
+         }, {
+            "date_added": "13334059708885803",
+            "date_last_used": "0",
+            "guid": "abb565f9-f453-4ae6-adcd-5ca3d0fffc8c",
+            "id": "14",
+            "name": "Maps",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://maps.google.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13334059711574425",
+            "date_last_used": "13363682080211343",
+            "guid": "b2aa7397-a9ab-4712-a9d0-452d7e18725d",
+            "id": "15",
+            "name": "Translate",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://translate.google.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13338158616092097",
+            "date_last_used": "0",
+            "guid": "f041d69a-c5fe-4ee0-8a15-7997b71c8686",
+            "id": "16",
+            "name": "ZType – Typing Game - Type to Shoot",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://zty.pe/",
+            "visit_count": 0
+         }, {
+            "date_added": "13341259312948991",
+            "date_last_used": "0",
+            "guid": "0efd0acf-e495-44b0-992d-2a2cb25fae1f",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Tyrone's Unblocked Games - 2048 Cupcakes",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://sites.google.com/site/tyronesgameshack/2048-cupcakes",
+            "visit_count": 0
+         }, {
+            "date_added": "13338498841001695",
+            "date_last_used": "13347670422204206",
+            "guid": "638a87a6-5792-45a4-b369-bd0736b97104",
+            "id": "18",
+            "name": "Poki - Free Online Games - Play Now! - No Downloads",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://poki.com/",
+            "visit_count": 0
+         }, {
+            "date_added": "13344962242981863",
+            "date_last_used": "13354099593250472",
+            "guid": "81037a12-26e3-4fd2-814d-310f02eb3a62",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "CSACU",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://csacu.simple.ink/",
+            "visit_count": 0
+         } ],
+         "date_added": "13392227892620476",
+         "date_last_used": "0",
+         "date_modified": "13355063572737614",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13342570838609294",
+            "date_last_used": "0",
+            "guid": "b40b3096-8a3e-4abf-910d-669c839b708d",
+            "id": "7",
+            "name": "Faculty Of Computers and Artificial Intelligence (ACU)",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://lms.acu.edu.eg/",
+            "visit_count": 0
+         }, {
+            "date_added": "13343151912417566",
+            "date_last_used": "0",
+            "guid": "8fbdae3f-f6ec-48e6-96ff-1eea4a96f24b",
+            "id": "8",
+            "name": "‪Calculus 2‬‏ - Google Drive",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1c7oa2TWI9bJ-bFfmseogN4FIQ5mrO0Py",
+            "visit_count": 0
+         } ],
+         "date_added": "13392227892620478",
+         "date_last_used": "0",
+         "date_modified": "13343151912417566",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13263169652853888",
+            "date_last_used": "0",
+            "guid": "2a465ded-5d5b-4d49-b37d-acb7ad4fa45a",
+            "id": "6",
+            "name": "Boss Fuck with his Maid and his Wife Surprised them - Pornhub.com",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.pornhub.com/view_video.php?viewkey=ph5fab9c196ab32",
+            "visit_count": 0
+         } ],
+         "date_added": "13392227892620479",
+         "date_last_used": "0",
+         "date_modified": "13263169652853888",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCLD68eSWAQAAEgAqGDhTR09OcVM2M0lWNG0xRjhVS2c3Wmc9PUgDoAYHEq4BCBMSqQEKHHl2M1BvdXgyVW9Cd3Q4anJTa2xWU1JaVzB1ND0SJDgxMDM3YTEyLTI2ZTMtNGZkMi04MTRkLTMxMGYwMmViM2E2MhgAIAAoADDIpJHt4DE4waOT6L4xQMGjk+i+MUocME1OSlpRN3U4RGlELzRRdS9qMlJzYzQyOWUwPVogIh7/3TErQlQ2Q2dPUjNZYVpHeGNQL1FUOFlKajR0RT1lf/Bgf8I+AmAFEq0BCBISqAEKHHgrZXRYVXlack9wMUttcmg5OUFpQU1RaHBaVT0SJDYzOGE4N2E2LTU3OTItNDVhNC1iMzY5LWJkMDczNmI5NzEwNBgAIAAoADDY/JSy3zE4iaqX3qYxQImql96mMUocZkovdGJSeVIwTTI2WFlHMitkdzRHS3JHYXNRPVofIh3/MU5pV0VQQkRCNjc1bElCV2ZXTWxMVXI5NTdBPWUM5lAGwj4CYAUSrQEIDxKoAQocR0hvSWpqcDRDSjYxOStMVWNJWVM2L3NCaVlVPRIkYjJhYTczOTctYTlhYi00NzEyLWE5ZDAtNDUyZDdlMTg3MjVkGAAgACgAMLOE+fSPMjjM68WNnTFAzOvFjZ0xShx6S0lFbGNuQTlaUVRNa01IV3NJanhtRHR1b0k9Wh8iHfpmaTc2MWZBa0ZsQ00rRTkwSndWSGN5eGJYQWc9ZcXPkAHCPgJgBRKtAQgREqgBChxMUkFReUJnZ3lZTThvNFlBNDJzZEJqR1pvZW89EiQwZWZkMGFjZi1lNDk1LTQ0YjAtOTkyZC0yYTJjYjI1ZmFlMWYYACAAKAAwm5O/ocgyOIeavYKxMUCHmr2CsTFKHDl4RjFpZXpZWFFzUmRlUSthaEM0VDRpY3l4RT1aHyId/kVNMWVmWHNDSTRuUDhYdGxCQTZtYnEwZTdxdz1lCdwL7cI+AmAFEq0BCA4SqAEKHFUxWmJ2Y3RMQkVNTTlvRXR3bEF5eU5YV011ST0SJGFiYjU2NWY5LWY0NTMtNGFlNi1hZGNkLTVjYTNkMGZmZmM4YxgAIAAoADDgwNmH+TE4nuvFjZ0xQJ7rxY2dMUocdHhMVFhtTlRHUC9PMUFuMy9BZE1wamU5VnNzPVofIh31TFpjWkZ6VE5CNU1DUTd6ekM5dXVnQml0V0E4PWWekJuCwj4CYAUSrQEIDRKoAQoccnVkc3hXNEFLekpGNGgxT2JnWjlXSlJmQnprPRIkYzQ5YTQ1MzQtZWVmZC00YmI1LWJiZGYtODVjNTBlYWQxZWNmGAAgACgAMK/1x6fuMjj668WNnTFA+uvFjZ0xShx6UDdNVzA2WitxeXlvaUlSVm5LZnJFd0k1YnM9Wh8iHepObUxpQldFRFhWQU50ZUh5WUJ1RXJBMkorK1k9Zf2cjErCPgJgBRKtAQgKEqgBChw2S2s0KzNJVlg0elJjTVRtYml1N013UWdzNDQ9EiQwNDU4YTNiMS0zOTI5LTRhZjMtOGNmNy0wMzI1MTQxOWQ0YTIYACAAKAAwnv+Su+QxOO6H5LjkMUDuh+S45DFKHG5lRGd2OVlQZWRUcE9mS0RYM2xTaDNTa3Urcz1aHyIdfjFMaWxBV25IV2ZrQ05zOWFLWG1qUzJBaGk5UT1lvivuR8I+AmAFEq0BCBASqAEKHCtNL002eVRrNEkrWE16T1VJVWRENFBYblVFaz0SJGYwNDFkNjlhLWM1ZmUtNGVlMC04YTE1LTc5OTdiNzFjODY4NhgAIAAoADDZ/JSy3zE4sdX5u6UxQLHV+bulMUocY1E3OGJHRmlMd1ViVXlMSFBmcW5iK1hIbTU0PVofIh39SFI3RFNuQ01tejVBVmtmZWxiVUZOR1VYcmxzPWXl0pRtwj4CYAUSrAEIBhKnAQocdzZBVmhWRk5MdmhBYVozOTBJK0JEMGJ6ZXRJPRIkMmE0NjVkZWQtNWQ1Yi00ZDQ5LWIzN2QtYWNiN2FkNGZhNDVhGAAgACgAMIfnxY2dMTi268WNnTFAtuvFjZ0xShwrSXhPdjdkUDJUL29Qd280N0RCVExhY3hDeGc9Wh4iHDZOQm9USU1hZDdHL2t1ZENNZ0JqTWNvRWNQcz1lAAAAAMI+AmAFEq0BCAsSqAEKHFRia2tZTUVOSFpld1kzWjgzNHJtVXlZZVcwQT0SJGJlOTdiMWEyLTQwMDAtNDQ1Zi1iZDgwLWE4YWQwNmE0NTBkNhgAIAAoADDdxKnu7TI4s5SVyfYwQLOUlcn2MEocSGV1RFcxa1lQbW5LZGFRcW5QdEYzMDkrQ1dVPVofIh2pUlV5Q1k1NmlIdFluaXkraHkwQ0RlWFZNOHpnPWX9nIxKwj4CYAUSjgEIARKJAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkMmJmNWFhNzctOTg3Yy01YWI4LWI2OGMtZDYzODIxM2EzOThhGAAgACgAMNuolMn2MDj8qZTJ9jBA/KmUyfYwShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAAMI+AmAAEqwBCAgSpwEKHGtrWDRXUk9mRnNycDFBOUtHODNMekZBOEFXST0SJDhmYmRhZTNmLWY2ZWMtNDhlNi05NmZmLTFlZWE0YTk2ZjI0YhgAIAAoADC3hPn0jzI4lYv59I8yQJWL+fSPMkocV3RzVWEwNlR5aThzUFVtc29ndXl5RExUYzZ3PVoeIhx0RmVwdm1WRGNhYTlkb0lhNEx3V1F4TDIyRFE9ZfqR3tvCPgJgBRKsAQgJEqcBChxaSzFwTms3VDNtY21zSDZabElGZDBSY0JvMzQ9EiQxNTBkOGM5My1kNzJhLTRiMDUtYmQ5Ny1lMzEwYzkwMTcwMmQYACAAKAAwsoT59I8yOMiUlcn2MEDIlJXJ9jBKHCswQnFMR1N6VmlYS1pHd2o5Z09Od3J5dTRMdz1aHiIcUzd3VytqTWxIRlRwdkVLR3U5bXozSWdYK1BFPWW+K+5Hwj4CYAUSrAEIBxKnAQocWGV3b29CUENOcHhsL0UwTG1ya0QwQ1grZFMwPRIkYjQwYjMwOTYtOGEzZS00YWJmLTkxMGQtNjY5YzgzOWI3MDhkGAAgACgAMJ38ttiqMjj2ivn0jzJA9or59I8yShx0cmtnOUhOa3g3UG5kcHRwcUhxYmIrbFpnQWc9Wh4iHFNOS2JjMGxMZW0rdVFialQvZmNjcXdtRW1YOD1lxj9nksI+AmAFEo4BCAISiQEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDZlZjlkODYwLWJhMjUtNTA3OC04NjE3LTM2MDBkZmEzY2U1MhgAIAAoADDcqJTJ9jA4kKqUyfYwQJCqlMn2MEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAADCPgJgABKtAQgMEqgBChxNc3Y4S1NDVHpRbm5jdG9qYTB1b0orb0NTR3c9EiQ3ZjI3NDcxYi00ZDU0LTRiYzctYWVhMS0yZTJiZTRjNmNjNzYYACAAKAAwtIT59I8yOOLrxY2dMUDi68WNnTFKHFh0d3lwVCtqUGtjK2xvRHByTS9iVHo4SXg1VT1aHyId1EJSQlE3ZVF4VXg2bWdBSnZaODdSWWpCajIzZz1lrzwWGsI+AmAFEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJGExYjhlOTcwLTlkMmQtNWRlMy04YTBlLTVjZTM5NWE1ZDYwNhgAIAAoADDhqJTJ9jA4/qqUyfYwQP6qlMn2MEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgADAAOAA=",
+   "version": 1
+}
